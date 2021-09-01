@@ -9,7 +9,8 @@ const express = require('express');
 // App
   const app = express();
   app.get('/', (req, res) => {
-   res.send('Hello, Wrld');
+   res.send('Hello, World');
+
    });
 
    app.listen(PORT, HOST);
